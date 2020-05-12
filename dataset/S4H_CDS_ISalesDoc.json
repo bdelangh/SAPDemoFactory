@@ -1,0 +1,20 @@
+{
+	"name": "S4H_CDS_ISalesDoc",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "S4H_CLNT100",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "4. Other Datasets"
+		},
+		"annotations": [],
+		"type": "SapHanaTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SAPHANADB",
+			"table": "ZBD_ISALESDOC_2"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

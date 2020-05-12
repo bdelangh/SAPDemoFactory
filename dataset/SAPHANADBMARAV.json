@@ -1,0 +1,20 @@
+{
+	"name": "SAPHANADBMARAV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SAPS4HANA",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "4. Other Datasets"
+		},
+		"annotations": [],
+		"type": "SapHanaTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SAPHANADB",
+			"table": "MARAV"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

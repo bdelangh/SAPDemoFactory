@@ -1,0 +1,21 @@
+{
+	"name": "S4H_VBAK",
+	"properties": {
+		"description": "Sales Order Header Data",
+		"linkedServiceName": {
+			"referenceName": "S4H_HANA",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "4. Other Datasets"
+		},
+		"annotations": [],
+		"type": "SapHanaTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SAPHANADB",
+			"table": "VBAK"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

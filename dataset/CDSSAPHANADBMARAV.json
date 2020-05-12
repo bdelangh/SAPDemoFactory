@@ -1,0 +1,19 @@
+{
+	"name": "CDSSAPHANADBMARAV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CDSTimoTSPTenant",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "4. Other Datasets"
+		},
+		"annotations": [],
+		"type": "CommonDataServiceForAppsEntity",
+		"schema": [],
+		"typeProperties": {
+			"entityName": "tv_saphanadbmarav"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
